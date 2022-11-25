@@ -1,0 +1,147 @@
+body{
+    font-family: 'Baloo Bhai', cursive;
+    margin:0px;
+    text-transform: capitalize;
+    cursor: pointer;
+    
+}
+#navbar{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color:black;
+    opacity: .7;
+    
+    top:0px;
+    width:100%;
+    height:10vh;
+    
+
+
+}
+#navbar ul{
+    display:flex;
+
+}
+li{
+    margin-left:20px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 140%;
+    
+}
+#navbar img{
+    border-radius: 50%;;
+    margin-left:30%;
+    width: 100px;
+    height:10vh;
+}
+a{
+    text-decoration: none;
+    list-style: none;;
+}
+a:hover{
+    color:blue;
+}
+#premium{
+ background-image:url(/img/pexels-pixabay-268533.jpg);
+ display: flex;
+ padding:50px;
+}
+#premium h1{
+    margin:50px;
+    font-size:300%;
+    border-radius: 50%;
+
+
+}
+#premium input{
+    margin:50px;
+    font-size:300%;
+    background-color: aqua;
+  border-radius: 30%;
+
+}
+#why{
+    margin-left: 50%;
+}
+#client{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 10px;
+    margin:20px;
+    justify-content: center;
+    text-align: center;
+}
+#client h2{
+    color:grey;
+}
+#contact{
+    background-image: linear-gradient(red,blue);
+    text-align: center;
+    padding:100px;
+    font-size: 200%;
+    color:white;
+}
+#icon{
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+    margin-left:300px;
+    margin-right:300px;
+    margin-top:50px;
+    color:grey;
+    font-weight: 200;
+}
+#icon div{
+    display:flex;
+    border-bottom:.7px solid black;
+    margin-bottom: 0px;;
+}
+#icon span{
+    padding-top:30px;
+    margin-left:320px;
+
+}
+#last{
+  background-image: url(/img/pexels-pixabay-355887.jpg);
+  
+  text-align: center;
+  padding:100px;
+  color:white;
+  font-size: 200%;
+}
+#last input{
+    padding:20px;
+    color:black;
+    font-size: 200%;
+    border-radius: 30%;
+}
+#footer img{
+margin-top: 30px;
+margin-left: 40px;
+}
+#footer{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    background-color: black;
+    color:white;
+    padding-left:40px;
+}
+#footer section{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.fa {
+    padding: 4px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border:1px solid blue;
+    border-radius: 10px;
+    margin-left:30px;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
